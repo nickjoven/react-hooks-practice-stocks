@@ -6,6 +6,7 @@ import SearchBar from "./SearchBar";
 const MainContainer = () => {
   const [stocks, setStocks] = useState([])
   const [portfolioList, setPortfolioList] = useState([])
+  const [sortMethod, setSortMethod] = ('')
 
   useEffect(() => {
     const fetchStocks = async () => {

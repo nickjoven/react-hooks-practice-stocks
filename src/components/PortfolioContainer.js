@@ -11,13 +11,13 @@ const PortfolioContainer = ({ portfolioList, handleAddPortfolio }) => {
           return (
             <Stock
               key={id}
-              stock={stock}
-              id={id}
-              ticker={ticker}
-              name={name}
-              type={type}
-              price={price}
-              handleAddPortfolio={handleAddPortfolio}
+            stock={stock}
+            id={id}
+            ticker={ticker}
+            name={name}
+            type={type}
+            price={price}
+            handleAddPortfolio={handleAddPortfolio}
             />
           )
         })
